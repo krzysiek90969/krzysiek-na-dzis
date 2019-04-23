@@ -66,11 +66,21 @@ body {
     body {
         background-image: url(https://source.unsplash.com/random/900x1600/?nature);
     }
-    .newquote {
-        top: 90%;
+
+    .wrapper, .newquote, .controls {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
     }
+
+    .newquote {
+        top: 75%;
+    }
+
     .controls {
-        top: 90%;
-        left: 90%;
+        top: 75%;
+        left: 75%;
     }
 }
