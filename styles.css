@@ -12,7 +12,7 @@ body {
     100% { background-size: 100% auto; }
 }
 
-.wrapper, .newquote {
+.wrapper, .newquote, .controls {
     position: absolute;
     top: 45%;
     left: 50%;
@@ -27,7 +27,6 @@ body {
     font-weight: 400;
     width: 340px;
     background-color: rgb(250, 249, 250);
-    /* height: 40px; */
     padding: 8px 12px;
 }
 
@@ -38,6 +37,15 @@ body {
 
 .newquote {
     top: 95%;
-/*     border: none; */
     width: 120px;
+    height: 40px;
+}
+
+.controls {
+    top: 96%;
+    left: 97%;
+    -moz-border-radius:7px 7px 7px 7px ;
+    -webkit-border-radius:7px 7px 7px 7px ;
+    border-radius:7px 7px 7px 7px ;
+    width: 80px;
 }

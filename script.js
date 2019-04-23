@@ -181,11 +181,9 @@ const quotes = ['arka 0 pogon 2 ',
 'bardzo kurwa Sevaltek: mówię że nie lubię facetów ',
 'jak śpiewa bardzo to dość Klaudia '];
 
-
 window.onload = () => {
     const quote = document.querySelector(".quote");
     const button = document.querySelector(".newquote");
-    /* const body = document.getElementsByTagName("body")[0]; */
     (newRandom = () => {
         random = Math.floor(Math.random() * (quotes.length));
         let data = "<span class='name'>krzysiek2019</span>" + ": " + quotes[random]
