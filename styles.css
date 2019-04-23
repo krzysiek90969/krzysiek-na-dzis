@@ -1,0 +1,43 @@
+body {
+    background-image: url(https://source.unsplash.com/random/?nature);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    animation: zoom 120s linear infinite;
+}
+
+@keyframes zoom {
+    0% { background-size: 100% auto; }
+    50% { background-size: 125% auto; }
+    100% { background-size: 100% auto; }
+}
+
+.wrapper, .newquote {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.quote, .newquote {
+    font-size: 12px;
+    font-family: 'Helvetica Neue', Helvetica, 'Arial Narrow', Arial, sans-serif;
+    color: rgb(25, 23, 28);
+    font-weight: 400;
+    width: 340px;
+    background-color: rgb(250, 249, 250);
+    /* height: 40px; */
+    padding: 8px 12px;
+}
+
+.name {
+    font-weight: 600;
+    color: rgb(30, 144, 255);
+}
+
+.newquote {
+    top: 95%;
+/*     border: none; */
+    width: 120px;
+}
