@@ -39,13 +39,16 @@ body {
     top: 95%;
     width: 120px;
     height: 40px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
 }
 
 .controls {
     top: 96%;
     left: 97%;
-    -moz-border-radius:7px 7px 7px 7px ;
-    -webkit-border-radius:7px 7px 7px 7px ;
-    border-radius:7px 7px 7px 7px ;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
     width: 80px;
 }
