@@ -64,7 +64,7 @@ body {
 
 @media only screen and (max-width: 960px) {
     body {
-        background-image: url(https://source.unsplash.com/random/900x1600/?nature);
+        background-image: url(https://source.unsplash.com/random/?vertical,nature);
     }
 
     .wrapper, .newquote, .controls {
