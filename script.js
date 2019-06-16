@@ -587,7 +587,7 @@ window.onload = () => {
     const button = document.querySelector(".newquote");
     (newRandom = () => {
         random = Math.floor(Math.random() * (quotes.length));
-        let data = "<span class='name'>krzysiek2019</span>" + ": " + quotes[random]
+        let data = "<span class='name'>krzysztof2019</span>" + ": " + quotes[random]
         quote.innerHTML = data;
         document.body.style.backgroundImage = "url(https://source.unsplash.com/random/?nature)";
     })();
