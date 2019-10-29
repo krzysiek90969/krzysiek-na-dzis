@@ -881,6 +881,12 @@ window.onload = () => {
     "papa 30 lat mam 31 lat",
     "najlepszego Krzysiu. Powiedz dzień dobry 31 lat",
     "podoba mi sie telenowela W obronie honoru Tierra de reyes"
+	"klaudia ja wiem ze jesteś jedyna niepowtarzalna i wyjatkowa ale skąd brac taka fajną kobieta jak Ty"
+	"duże jablki mam"
+	"samotny mezczyzna oglada stream jest samotny"
+	"Cholera zjadłbym pizze"
+	"Wiele kobiet zagłosowało na Korwin-Mikkego. TO SIĘ W GŁOWIE NIE MIEŚC"
+	"co masz w lodówce"
   ];
 
   const quote = document.querySelector(".quote");
