@@ -886,6 +886,7 @@ window.onload = () => {
 	"samotny mezczyzna oglada stream jest samotny"
 	"Cholera zjadłbym pizze"
 	"Wiele kobiet zagłosowało na Korwin-Mikkego. TO SIĘ W GŁOWIE NIE MIEŚC"
+	"co masz w lodówce"
   ];
 
   const quote = document.querySelector(".quote");
